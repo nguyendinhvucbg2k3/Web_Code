@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://voting-app-server-57ji.onrender.com/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Thông Tin Đối Tượng Vote </h2>
+        <div class="boxer">
+            <h3>Ban Truyền Thông</h3>
+            <p>Mục đích </p>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Phiếu Vote</h2>
+        <div class="progress-box" id="html">
+            <p>AOV</p>
+            <div class="progress-bar">
+                <span data="0%" class="percent-tag"></span>
+            </div>
+        </div>
+        <div class="progress-box" id="css">
+            <p>PUBGM</p>
+            <div class="progress-bar">
+                <span data="0%" class="percent-tag"></span>
+            </div>
+        </div>
+        <div class="progress-box" id="javascript">
+            <p>Football games</p>
+            <div class="progress-bar">
+                <span data="0%" class="percent-tag"></span>
+            </div>
+        </div>
+        <div class="progress-box" id="react">
+            <p>GENSHIN</p>
+            <div class="progress-bar">
+                <span data="0%" class="percent-tag"></span>
+            </div>
+        </div>
+        <div class="progress-box" id="python">
+            <p>Free Fire</p>
+            <div class="progress-bar">
+                <span data="0%" class="percent-tag"></span>
+            </div>
+        </div>
+        <h3>Total Votes : <span id="totalVotes"></span></h3>
+    </div>
+    <script defer src="./script.js"></script>
+</body>
+</html>
